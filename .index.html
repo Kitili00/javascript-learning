@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8"/>
-        <title>JavaScript</title>
-        <h1>JavaScript Learning</h1>
-        <style src="style.css"></style>
-    </head>
-    <body>
-        <p>This is the JavaScript Learning Practice</p>
-        <script src="main.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Option</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="checkbox" id="myCheckbox">
+    <label id="myLabel">Check this box if you are paying through Card</label><br><br>
+
+    <p>If yes, which one?</p>
+
+    <input type="radio" id="visaBtn"name="buttons">
+    <label id="myVisa">Visa</label><br>
+    <input type="radio" id="pesapalBtn"name="buttons">
+    <label id="myPesapal">Pesapal</label><br>
+    <input type="radio" id="venmoBtn"name="buttons">
+    <label id="myVenmo">Venmo</label><br>
+<br>
+    <button id="mySubmit">Submit</button>
+    <br>
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+    <script src="main.js"></script>
+</body>
 </html>
